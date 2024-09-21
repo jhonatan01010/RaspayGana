@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilos para la ventana modal */
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#closeModal {
+    cursor: pointer;
+    float: right;
+    font-size: 1.5rem;
+}
